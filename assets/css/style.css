@@ -37,12 +37,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 1em;
-}
-
-.logo {
-    color: #D3E6FD;
-    font-size: 1.2em;
+    background-color: #fff;
 }
 
 nav ul {
@@ -56,7 +51,7 @@ nav ul {
 
 nav ul li a {
     font-size: 1em;
-    color: #fff;
+    color: #000;
     display: block;
     padding: 5px 10px;
     text-transform: uppercase;
@@ -102,7 +97,7 @@ nav ul li a:hover::after {
 /* Botões */
 .btn {
     font-size: 1.3em;
-    color: #FFF;
+    color: #000;
     background-color: #4F9CF9;
     padding: 10px 20px;
     border-radius: 10px;
