@@ -91,7 +91,7 @@ nav ul li a:hover::after {
 .container {
     max-width: 90vw; /*Não ultrapassará de 90% da tela do dispositivo*/
     margin: 0 auto;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
 }
 /* Backgrounds */
 .background-image {
@@ -136,6 +136,7 @@ nav ul li a:hover::after {
     justify-content: center;
     height: 50vh;
     border: 1px solid red;
+    margin-bottom: 1.5em;
 }
 
 .banner .banner-text {
@@ -214,13 +215,9 @@ nav ul li a:hover::after {
 }
 
 /*SECTION FAÇA MAIS*/
-.faca-mais .container {
-
-}
-
 .faca-mais .faca-mais-text {
     padding: 0 1em;
-    margin-bottom: 2em;
+    margin-bottom: 4em;
 }
 
 .faca-mais .faca-mais-text p {
@@ -228,7 +225,7 @@ nav ul li a:hover::after {
     color: #000;
     background-color: #F0BD05;
     border-radius: .5em;
-    padding: 1em;
+    padding: 2em;
 }
 
 .faca-mais .faca-mais-list ul {
@@ -255,13 +252,9 @@ nav ul li a:hover::after {
     margin-bottom: 20px;
 }
 
-.nossos-clientes .container .logo-clientes {
-
-}
-
 /*FOOTER*/
 footer {
-    background-color: #4F9CF9;
+    background-color: #000;
     text-align: center;
     padding: 40px;
 }
