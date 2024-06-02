@@ -45,7 +45,6 @@ nav ul {
     align-items: center;
     justify-content: space-evenly;
     list-style: none;
-    width: 40%;
     font-size: 1em;
 }
 
@@ -92,6 +91,7 @@ nav ul li a:hover::after {
 .container {
     max-width: 90vw; /*Não ultrapassará de 90% da tela do dispositivo*/
     margin: 0 auto;
+    border: 1px solid blue;
 }
 /* Backgrounds */
 .background-image {
@@ -116,12 +116,12 @@ nav ul li a:hover::after {
 }
 
 .btn:hover {
-    background-color: #3580DB;
+    background-color: #F0BD05;
 }
 
 @keyframes animate-outline {
     from {
-        outline: 0px solid #4F9CF98A;
+        outline: 0px solid #F0BD05;
     }
     to {
         outline: 15px solid #4F9BF900;
@@ -135,6 +135,7 @@ nav ul li a:hover::after {
     display: flex;
     justify-content: center;
     height: 50vh;
+    border: 1px solid red;
 }
 
 .banner .banner-text {
@@ -151,9 +152,12 @@ nav ul li a:hover::after {
 
 .banner .banner-text p {
     font-size: 1.3em;
-    color: #FFFFFFB7;
+    color: #FFF;
     font-weight: lighter;
     margin: 1em 0;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 1em;
+    padding: .3em;
 }
 
 .banner .banner-text a {
@@ -256,11 +260,7 @@ nav ul li a:hover::after {
 }
 
 .nossos-clientes .container .logo-clientes {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 90%;
-    margin: 0 auto;
+
 }
 
 /*FOOTER*/
