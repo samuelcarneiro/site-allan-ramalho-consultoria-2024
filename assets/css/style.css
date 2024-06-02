@@ -1,0 +1,473 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #F1F6FC31;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    color: #0000009C;
+    line-height: 1.5em;
+    font-size: 1.3em;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-top: 10px; */
+}
+
+nav .logo {
+    width: 60%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 40%;
+    font-size: 1em;
+}
+
+nav ul li a {
+    font-size: 1em;
+    color: #fff;
+    display: block;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/*A animação ocorrerá em todos os links, menos no link de classe .btn*/
+nav ul li a:not(.btn):after {
+    content: "";
+    background-color: #4F9CF9;
+    height: 3px;
+    width: 0%;
+    display: block;
+    transition: .3s;
+    margin: 0 auto;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+/*Escondendo o Menu Mobile na versão Desktop*/
+.mobile-icon-menu,
+.mobile-menu {
+    display: none;
+}
+
+.background-header-home {
+    background-image: url('../img/background-home.jpg');
+}
+
+/* Padrão Elementos */
+/* Container */
+.container {
+    max-width: 90vw; /*Não ultrapassará de 90% da tela do dispositivo*/
+    margin: 0 auto;
+}
+/* Backgrounds */
+.background-image {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Botões */
+.btn {
+    font-size: 1.3em;
+    color: #FFF;
+    background-color: #4F9CF9;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: .1s;
+}
+
+.btn.btn-animate {
+    animation: animate-outline 1s ease-out infinite;
+}
+
+.btn:hover {
+    background-color: #3580DB;
+}
+
+@keyframes animate-outline {
+    from {
+        outline: 0px solid #4F9CF98A;
+    }
+    to {
+        outline: 15px solid #4F9BF900;
+    }
+}
+
+/* END CONFIG HEADER */
+
+/* BANNER CONFIG */
+.banner {
+    display: flex;
+    justify-content: center;
+    height: 55vh;
+}
+
+.banner .banner-text {
+    /* margin: 150px; Espaçamento fora do conteúdo do texto do banner */
+    text-align: center;
+    /* padding: 0 90px; */
+}
+
+.banner .banner-text h1 {
+    font-size: 4em;
+    color: #FFF;
+    margin-top: 1em;
+}
+
+.banner .banner-text p {
+    font-size: 1.3em;
+    color: #FFFFFFB7;
+    font-weight: lighter;
+    margin: 18px 0;
+}
+
+.banner .banner-text a {
+    font-size: 1.3em;
+}
+
+/*SECTION FAÇA MAIS*/
+.faca-mais .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faca-mais .faca-mais-text {
+    padding: 0 40px;
+    width: 50%;
+}
+
+.faca-mais .faca-mais-text p {
+    margin: 5px 0 15px 0;
+}
+
+.faca-mais .faca-mais-img {
+    width: 50%;
+}
+
+.faca-mais .faca-mais-img img {
+    width: 100%; /*100% da lasgura do .faca-mais-img*/
+}
+
+/* SECTION DEPOIMENTOS */
+.depoimentos .container p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.depoimentos .cards {
+    display: flex;
+    justify-content: center;
+}
+
+.depoimentos .card {
+    background-color: #D3E6FD;
+    margin: 15px;
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+    transition: .3s;
+}
+
+.depoimentos .card img {
+    border-radius: 50%;
+    width: 100px;
+    margin: 10px auto;
+    display: block;
+}
+
+.depoimentos .card .user-name {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.depoimentos .card .user-depoimento {
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+.depoimentos .card .estrelas {
+    margin: 10px 0;
+    padding-top: 5px;
+    border-top: 2px solid #71767A23;
+}
+
+.depoimentos .card .estrelas i {
+    color: #4F9CF9;
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+.depoimentos .card:hover {
+    /*Tempo de transição do :hover está no elemento .card que recebe o hover*/
+    background-color: #3580DB;
+    margin-top: -5px;
+
+    .user-name,
+    .user-depoimento,
+    .estrelas i {
+        color: #FFF;
+    }
+}
+
+/* NOSSOS CLIENTES */
+
+.nossos-clientes .container p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nossos-clientes .container .logo-clientes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #4F9CF9;
+    text-align: center;
+    padding: 40px;
+}
+
+footer i {
+    color: #4F9CF9;
+    font-size: 19px;
+    background-color: #FFF;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+footer p {
+    margin-top: 10px;
+    color: #FFF;
+    font-weight: 400;
+}
+
+/*PÁGINA SOBRE*/
+.background-header-sobre {
+    background-image: url('../img/background-sobre1.jpg');
+}
+
+.sobre .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre .sobre-text {
+    width: 50%;
+    padding-right: 40px;
+}
+
+.sobre .sobre-text h2 {
+    text-align: start;
+    margin-bottom: 18px;
+}
+
+.sobre .sobre-img {
+    width: 50%;
+}
+
+.sobre .sobre-img img {
+    width: 100%; /*Ocupa 100% dos 50% ocupados pela DIV pai*/
+    border-radius: 15px;
+}
+
+.sobre .sobre-text a {
+    margin-top: 18px;
+    font-size: 1.3em;
+}
+/* ./PÁGINA SOBRE*/
+
+/*PÁGINA SERVIÇOS*/
+.background-header-servicos {
+    background-image: url('../img/background-servicos.jpg');
+}
+
+.servicos .container p {
+    text-align: center;
+}
+
+.servicos .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.servicos .row-card {
+    background-color: #D3E6FD;
+    width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    transition: .3s;
+}
+
+.servicos .row-card:hover {
+    background-color: #4F9CF9;
+    h3, p {
+        color: #FFF;
+    }
+}
+
+.servicos .row-card img {
+    background-color: #4F9CF9;
+    border-radius: 15px;
+    padding: .5em;
+    margin-bottom: 1em;
+}
+
+.servicos .row-card h3 {
+    font-size: 1.3em;
+    margin-bottom: .5rem;
+}
+
+.servicos .row-card .service-description {
+    text-align: left;
+}
+
+.dados {
+    background-color: #D3E6FD;
+}
+
+.dados .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dados .dado {
+    text-align: center;
+    margin: 15px;
+    color: #000000BE;
+}
+
+.dados .dado img {
+    background-color: #4F9BF9;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 80px;
+}
+
+.dados .dado p strong {
+    font-size: 1.5em;
+}
+
+/*PÁGINA CONTATO*/
+.background-header-contato {
+    background-image: url('../img/background-contacto.jpg');
+}
+
+.contato .container .mapa iframe {
+    border-radius: 15px;
+}
+
+.contato-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contato-info .left-side {
+    width: 50%;
+    padding: 30px;
+    background-color: #4F9BF9;
+    border-radius: 15px;
+    margin-right: 50px;
+    height: fit-content;
+}
+
+.contato-info .left-side div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contato-info .left-side div i {
+    color: #FFF;
+    font-size: 2em;
+    text-align: center;
+    width: 40px;
+    margin-right: 20px;
+}
+
+.contato-info .left-side div p {
+    font-size: 20px;
+    color: #FFF;
+}
+
+.contato-info .right-side {
+    width: 50%;
+}
+
+.contato-info .right-side input,
+.contato-info .right-side textarea {
+    display: block;
+    border: 1px solid #CCC;
+    color: #212121;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    transition: .3s;
+}
+
+.contato-info .right-side textarea {
+    /*Retira a possibilidade de redimencionar o tamanho do textarea com o mouse
+     * (canto inferior direito do textarea) */
+    resize: none;
+}
+
+.contato-info .right-side input:focus,
+.contato-info .right-side textarea:focus {
+    border-color: #4F9BF9;
+    border-width: 2px;
+}
+
+.contato-info .right-side button {
+    border: none;
+    font-size: 1.3em;
+}
