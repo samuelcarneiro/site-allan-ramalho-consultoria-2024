@@ -73,6 +73,7 @@ nav ul li a:hover::after {
 
 .destaque {
     color: #F0BD05;
+    font-weight: bold;
 }
 
 /*Escondendo o Menu Mobile na versão Desktop*/
@@ -166,7 +167,7 @@ nav ul li a:hover::after {
     font-size: 1.3em;
 }
 
-/* SECTION DEPOIMENTOS */
+/* SECTION CHAMADAS */
 .chamadas .container p {
     font-size: 18px;
     text-align: center;
@@ -244,6 +245,50 @@ nav ul li a:hover::after {
 
 .faca-mais .faca-mais-list ul li img {
     margin-right: .5em;
+}
+
+/* SECTION PLANOS */
+.planos .container h3 {
+    background-color: #F0BD05;
+    border-radius: .5em .5em 0em 0em;
+    padding: .2em;
+}
+
+.planos .container p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.planos .cards {
+    display: flex;
+    justify-content: center;
+}
+
+.planos .card {
+    background-color: #F6F6F6;
+    margin: 15px;
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+    transition: .3s;
+    box-shadow: 1px 1px 50px 1px;
+}
+
+.planos .card .combo {
+    background-color: rgba(0, 0, 0, .7);
+    text-transform: uppercase;
+    width: 95%;
+    margin: .5em auto;
+    border-radius: .5em;
+    padding: .2em 0;
+}
+
+.planos .card .combo h4 {
+    font-size: 1.1em;
+}
+
+.planos .card .combo p {
+    font-size: 1.5em;
 }
 
 /* NOSSOS CLIENTES */
