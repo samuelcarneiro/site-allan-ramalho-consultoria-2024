@@ -37,11 +37,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding-top: 10px; */
+    padding-top: 1em;
 }
 
-nav .logo {
-    width: 60%;
+.logo {
+    color: #D3E6FD;
+    font-size: 1.2em;
 }
 
 nav ul {
