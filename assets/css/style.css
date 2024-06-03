@@ -248,15 +248,21 @@ nav ul li a:hover::after {
 }
 
 /* SECTION PLANOS */
+.planos {
+    background-color: rgba(0, 0, 0, .1);
+}
+
 .planos .container h3 {
     background-color: #F0BD05;
     border-radius: .5em .5em 0em 0em;
     padding: .2em;
+    margin-bottom: .3em;
 }
 
 .planos .container p {
     font-size: 1.2em;
     text-align: center;
+    margin: .5em 0;
 }
 
 .planos .cards {
@@ -267,7 +273,7 @@ nav ul li a:hover::after {
 .planos .card {
     background-color: #F6F6F6;
     margin: 15px;
-    border-radius: 15px;
+    border-radius: 1em;
     text-align: center;
     width: 350px;
     transition: .3s;
@@ -281,6 +287,10 @@ nav ul li a:hover::after {
     margin: .5em auto;
     border-radius: .5em;
     padding: .2em 0;
+}
+
+.planos .card p {
+    font-weight: bold;
 }
 
 .planos .card .combo h4 {
