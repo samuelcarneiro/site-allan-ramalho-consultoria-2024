@@ -2,9 +2,9 @@ function menuShow() {
     let menuMobile = document.querySelector('.mobile-menu');
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
-        document.querySelector('.icon-menu').src="./assets/img/menu_white_36dp.svg";
+        document.querySelector('.icon-menu').src="./assets/img/icon-menu.png";
     } else {
         menuMobile.classList.add('open');
-        document.querySelector('.icon-menu').src="./assets/img/close_white_36dp.svg";
+        document.querySelector('.icon-menu').src="./assets/img/icon-menu-close.png";
     }
 }
