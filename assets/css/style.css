@@ -301,6 +301,18 @@ nav ul li a:hover::after {
     font-size: 1.5em;
 }
 
+.planos .alerta h3 {
+    margin-top: 2em;
+    border-radius: .5em;
+    text-align: center;
+}
+
+.planos .alerta p {
+    text-align: left;
+    padding: 0 1.5em;
+    font-size: 1em;
+}
+
 /* NOSSOS CLIENTES */
 .nossos-clientes .container p {
     text-align: center;
