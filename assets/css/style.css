@@ -361,6 +361,24 @@ nav ul li a:hover::after {
     border-radius: .5em;
 }
 
+/* CONTATO */
+.contato {
+    text-align: center;
+    background-color: #F0BD05;
+}
+
+.contato p {
+    margin-bottom: 1em;
+}
+
+.contato .container img {
+    width: 2em;
+}
+
+.contato .container .telefone {
+    font-size: 2em;
+    font-weight: bold;
+}
 /*FOOTER*/
 footer {
     background-color: #000;
