@@ -136,7 +136,6 @@ nav ul li a:hover::after {
     display: flex;
     justify-content: center;
     height: 50vh;
-    border: 1px solid red;
     margin-bottom: 1.5em;
 }
 
@@ -378,6 +377,23 @@ nav ul li a:hover::after {
 .contato .container .telefone {
     font-size: 2em;
     font-weight: bold;
+}
+
+.contato .container .retornar {
+    border: 1px solid red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contato .container .retornar img {
+    color: #0000009C;
+    width: 20px;
+}
+
+.contato .container .retornar a {
+    color: #0000009C;
+    cursor: pointer;
 }
 /*FOOTER*/
 footer {
