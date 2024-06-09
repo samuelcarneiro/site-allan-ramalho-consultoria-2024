@@ -371,19 +371,9 @@ nav ul li a:hover::after {
     margin-bottom: 1em;
 }
 
-.contato .container .telefone {
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.contato .container .whatsapp-button {
-    display: block;
-}
-
 .contato .container .retornar {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
 }
 
 .contato .container .retornar img {
