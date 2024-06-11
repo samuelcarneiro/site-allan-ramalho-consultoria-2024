@@ -415,6 +415,10 @@ footer .developer-info {
     justify-content: center;
 }
 
+footer .developer-info img {
+    margin-right: .5em;
+}
+
 footer .developer-info a {
     color: #FFF;
     padding: .1em .3em;
