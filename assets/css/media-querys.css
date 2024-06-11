@@ -77,4 +77,21 @@
         align-items: center;
     }
 
+    .faca-mais-list ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faca-mais-list ul li {
+        background-color: #F6F6F6;
+        margin-bottom: .5em;
+        border-radius: .5em;
+        padding: .5em 0;
+        width: 350px;
+    }
+
+    .faca-mais .faca-mais-list ul li img {
+        margin-right: 0;
+    }
+
 } 
