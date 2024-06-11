@@ -137,7 +137,7 @@ nav ul li a:hover::after {
 .banner {
     display: flex;
     justify-content: center;
-    height: 50vh;
+    height: 65vh;
     margin-bottom: 1.5em;
 }
 
