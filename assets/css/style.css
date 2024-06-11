@@ -400,22 +400,6 @@ footer {
     padding: 40px;
 }
 
-/* Estilos para os ícones no rodapé */
-footer i {
-    color: #F0BD05;
-    font-size: 1em;
-    background-color: #FFF;
-    padding: .5em;
-    margin: .2em;
-    border-radius: .5em;
-    transition: .3s;
-
-    &:hover {
-        background-color: #F0BD05;
-        color: #FFF;
-    }
-}
-
 /* Estilos para os textos no rodapé */
 footer p {
     margin-top: .8em;
@@ -426,6 +410,9 @@ footer p {
 /* Estilos para as informações do desenvolvedor */
 footer .developer-info {
     font-size: .8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer .developer-info a {
