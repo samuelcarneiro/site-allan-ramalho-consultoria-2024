@@ -94,4 +94,9 @@
         margin-right: 0;
     }
 
+    .treinos-dietas .container .treinos-list,
+    .treinos-dietas .container .dietas-list {
+        width: 45%;
+    }
+
 } 
