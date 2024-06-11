@@ -440,48 +440,7 @@ footer .developer-info a {
     }
 }
 
-/*PÁGINA SOBRE*/
-.background-header-sobre {
-    background-image: url('../img/background-sobre1.jpg');
-}
-
-.sobre .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.sobre .sobre-text {
-    width: 50%;
-
-    padding-right: 40px;
-}
-
-.sobre .sobre-text h2 {
-    text-align: start;
-    margin-bottom: 18px;
-}
-
-.sobre .sobre-img {
-    width: 50%;
-}
-
-.sobre .sobre-img img {
-    width: 100%; /*Ocupa 100% dos 50% ocupados pela DIV pai*/
-    border-radius: 15px;
-}
-
-.sobre .sobre-text a {
-    margin-top: 18px;
-    font-size: 1.3em;
-}
-/* ./PÁGINA SOBRE*/
-
 /*PÁGINA SERVIÇOS*/
-.background-header-servicos {
-    background-image: url('../img/background-servicos.jpg');
-}
-
 .servicos .container p {
     text-align: center;
 }
@@ -495,7 +454,7 @@ footer .developer-info a {
 }
 
 .servicos .row-card {
-    background-color: #D3E6FD;
+    background-color: #fcf2cd;
     width: 350px;
     padding: 20px;
     border-radius: 15px;
@@ -504,10 +463,7 @@ footer .developer-info a {
 }
 
 .servicos .row-card:hover {
-    background-color: #4F9CF9;
-    h3, p {
-        color: #FFF;
-    }
+    background-color: #ffe483;
 }
 
 .servicos .row-card img {
