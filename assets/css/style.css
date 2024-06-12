@@ -171,15 +171,16 @@ nav ul li a:hover::after {
 /* SECTION CHAMADAS */
 .chamadas .cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 2em; /*Espaçamento entre os elementos cards*/
 }
 
 .chamadas .card {
     background-color: #F6F6F6;
-    margin: 15px;
-    border-radius: 15px;
+    border-radius: 1em;
     text-align: center;
-    width: 350px;
+    width: 250px;
     transition: .3s;
     box-shadow: 1px 1px 50px 1px;
 }
