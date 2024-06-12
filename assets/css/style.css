@@ -205,13 +205,13 @@ nav ul li a:hover::after {
     transform: scale(1.1);
 }
 
-/*SECTION FAÇA MAIS*/
-.faca-mais .faca-mais-text {
+/* SECTION QUALIDADES */
+.qualidades .qualidades-text {
     padding: 0 1em;
     margin-bottom: 4em;
 }
 
-.faca-mais .faca-mais-text p {
+.qualidades .qualidades-text p {
     text-align: center;
     color: #000;
     background-color: #F0BD05;
@@ -219,21 +219,24 @@ nav ul li a:hover::after {
     padding: 2em;
 }
 
-.faca-mais .faca-mais-list ul {
+.qualidades .qualidades-list ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     font-size: 1.3em;
     line-height: 1.2;
     list-style: none;
+    gap: 1em;
 }
 
-.faca-mais .faca-mais-list ul li {
+.qualidades .qualidades-list ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 250px;
 }
 
-.faca-mais .faca-mais-list ul li img {
+.qualidades .qualidades-list ul li img {
     margin-right: .5em;
 }
 
@@ -257,6 +260,7 @@ nav ul li a:hover::after {
 
 .planos .cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
