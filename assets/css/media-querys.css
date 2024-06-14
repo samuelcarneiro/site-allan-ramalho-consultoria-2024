@@ -167,8 +167,24 @@
         margin-top: 1.5em;
     }
 
+    .contato .container p {
+        width: 90%;
+        margin: 1em auto;
+    }
+
     /**###### FOOTER ######*/
     footer .developer-info {
         font-size: .6em;
+    }
+
+    /**###### PÁGINA SERVIÇOS ######*/
+    .servicos .container h2,
+    .servicos .container .servicos-p {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .servicos .row-card {
+        width: 90%;
     }
 } 
