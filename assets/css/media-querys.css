@@ -7,12 +7,16 @@
 
     .container {
         width: 100%;
-        border: 2px solid red;
     }
 
     nav ul {
         display: none;
     }
+
+    .logo img {
+        width: 12em;
+    }
+
     .mobile-icon-menu {
         display: block;
     }
@@ -52,7 +56,6 @@
     }
 
     /* BANNER */
-
     .banner {
         height: 80vh;
     }
@@ -72,13 +75,11 @@
     .chamadas {
         display: flex;
         justify-content: center;
-        border: 1px solid blue;
     }
 
     .chamadas .cards {
         flex-direction: column;
         align-items: center;
-        border: 1px solid red;
     }
 
     .chamadas .card {
@@ -125,4 +126,49 @@
         text-align: start;
     }
 
+    /**###### PLANOS ######*/
+    .planos .card {
+        width: 90%;
+    }
+
+    .planos .card p {
+        font-size: 1.5em;
+        margin: 0;
+    }
+    
+    .planos .card .combo h4 {
+        font-size: 1.5em;
+    }
+    
+    .planos .card .combo p {
+        font-size: 2em;
+    }
+
+    .planos .alerta {
+        width: 90%;
+    }
+
+    .planos .alerta p {
+        padding: 0;
+    }
+
+    /**###### RESULTADOS ######*/
+    .alunos .container p {
+        width: 90%;
+        margin: .5em auto;
+    }
+
+    .img-alunos img {
+        width: 90%;
+    }
+
+    /**###### CONTATO ######*/
+    .contato .container .retornar {
+        margin-top: 1.5em;
+    }
+
+    /**###### FOOTER ######*/
+    footer .developer-info {
+        font-size: .6em;
+    }
 } 

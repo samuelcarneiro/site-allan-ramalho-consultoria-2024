@@ -248,12 +248,6 @@ nav ul li a:hover::after {
     margin-bottom: .3em;
 }
 
-.planos .container p {
-    font-size: 1.2em;
-    text-align: center;
-    margin: .5em 0;
-}
-
 .planos .cards {
     display: flex;
     flex-wrap: wrap;
@@ -391,7 +385,7 @@ nav ul li a:hover::after {
 footer {
     background-color: #000;
     text-align: center;
-    padding: 40px;
+    padding: 1em;
 }
 
 /* Estilos para os textos no rodapé */
@@ -425,7 +419,7 @@ footer .developer-info a {
     }
 }
 
-/*PÁGINA SERVIÇOS*/
+/*###### PÁGINA SERVIÇOS ######*/
 .servicos .container p {
     text-align: center;
 }
