@@ -44,10 +44,11 @@ nav {
 
 nav ul {
     display: flex;
+    gap: 1.5em;
     align-items: center;
     justify-content: space-evenly;
     list-style: none;
-    font-size: 1em;
+    font-size: 1.4em;
 }
 
 nav ul li a {
@@ -62,7 +63,7 @@ nav ul li a {
 nav ul li a:not(.btn):after {
     content: "";
     background-color: #F0BD05;
-    height: 3px;
+    height: 4px;
     width: 0%;
     display: block;
     transition: .3s;
@@ -92,7 +93,7 @@ nav ul li a:hover::after {
 /* Padrão Elementos */
 /* Container */
 .container {
-    max-width: 90vw; /*Não ultrapassará de 90% da tela do dispositivo*/
+    max-width: 70vw; /*Não ultrapassará de 80% da tela do dispositivo*/
     margin: 0 auto;
     /*border: 1px solid blue;*/
 }
@@ -154,18 +155,19 @@ nav ul li a:hover::after {
 }
 
 .banner .banner-text p {
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: #FFF;
     font-weight: lighter;
     margin: 1em 0;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .4);
     border-radius: 1em;
-    padding: .3em;
+    padding: 1em;
 }
 
 .banner .banner-text a {
     margin-top: .7em;
-    font-size: 1.3em;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 /* SECTION CHAMADAS */
@@ -182,7 +184,7 @@ nav ul li a:hover::after {
     text-align: center;
     width: 250px;
     transition: .3s;
-    box-shadow: 1px 1px 50px 1px;
+    box-shadow: 1px 1px rgba(0, 0, 0, .2);
 }
 
 .chamadas .card img {
@@ -234,6 +236,7 @@ nav ul li a:hover::after {
     flex-direction: column;
     align-items: center;
     width: 250px;
+    padding: 1em;
 }
 
 /* SECTION PLANOS */
@@ -261,7 +264,7 @@ nav ul li a:hover::after {
     text-align: center;
     width: 350px;
     transition: .3s;
-    box-shadow: 1px 1px 50px 1px;
+    box-shadow: 1px 1px rgba(0, 0, 0, .4);
 }
 
 .planos .card .combo {
@@ -278,11 +281,13 @@ nav ul li a:hover::after {
 }
 
 .planos .card .combo h4 {
-    font-size: 1.1em;
+    font-size: 1.5em;
+    margin-top: 1em;
+
 }
 
 .planos .card .combo p {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .planos .alerta {
@@ -299,7 +304,7 @@ nav ul li a:hover::after {
 .planos .alerta p {
     text-align: left;
     padding: 0 1.5em;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 /*SECTION TREINOS E DIETAS*/
